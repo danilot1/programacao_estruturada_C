@@ -2,15 +2,15 @@
 #include <stdio.h>
 #include <ctype.h>
 int main(){
-    char frase[100];
+    char frase[101];
     char caractere;
     int i, qtd_caractere = 0;
     printf("Digite uma frase de no max 100 caracteres: \n");
-    fgets(frase, 100, stdin);
+    fgets(frase, 101, stdin);
     printf("Digite o caractere desejado: \n");
     scanf("%c",&caractere);
     
-    for(i=0;i<100 && frase[i]!='\0';i++){
+    for(i=0;i<101 && frase[i]!='\0';i++){
         if(frase[i]==caractere){
             qtd_caractere++;
         }
