@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main(){
-    char frase[100], fraseInver[80];
+    char frase[101], fraseInver[81];
     int i, j,
     fim;
     printf("Insira uma frase de no max 100 caracteres: \n");
