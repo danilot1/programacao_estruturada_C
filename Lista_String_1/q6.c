@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <ctype.h>
 int main(){
-    char frase[50], caractere;
+    char frase[51], caractere;
     int i;
     printf("Digite uma frase de no max 50 caracteres: \n");
     gets(frase);
