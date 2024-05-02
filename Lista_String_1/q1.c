@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 int main(){
-    char frase[80];
+    char frase[81];
     int i;
     printf("Insira uma frase de no max 80 caracteres: \n");
     gets(frase);
-    for(i = 0; i<80; i++){
+    for(i = 0; i<81; i++){
         if(frase[i] == 'a' || frase[i] == 'e' || frase[i] == 'i' || frase[i] == 'o' || frase[i] == 'u' || frase[i] == 'A' || frase[i] == 'E' ||frase[i] == 'I' || frase[i] == 'O' || frase[i] == 'U'){
             frase[i] = '*';
         }
